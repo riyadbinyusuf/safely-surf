@@ -1,8 +1,8 @@
 {
-  "name": "filtered-facebook",
-  "displayName": "Filtered facebook",
+  "name": "safely-surf",
+  "displayName": "Safely Surf",
   "version": "0.0.1",
-  "description": "Clean the facebook feed",
+  "description": "Safely surf the web",
   "author": "Riyad <riyad.rir@gmail.com>",
   "scripts": {
     "dev": "plasmo dev",
