@@ -1,20 +1,19 @@
-import { useState } from "react"
+import "./style.css"
 
 function IndexPopup() {
-  const [data, setData] = useState("")
 
   return (
     <div
       style={{
         display: "flex",
         flexDirection: "column",
-        padding: 16
+        padding: 16,
+        width: '150px'
       }}>
-      <h1>
-        Welcome to your <a href="https://www.plasmo.com">Plasmo</a> Extension!
+      <h1 className="text-green-500 font-bold">
+        Safely surf the web!
       </h1>
-      <input onChange={(e) => setData(e.target.value)} value={data} />
-      <footer>Crafted by @PlamoHQ</footer>
+      <footer>Crafted by @Riyad</footer>
     </div>
   )
 }
